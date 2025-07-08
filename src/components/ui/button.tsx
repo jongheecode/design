@@ -18,10 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        neon: "bg-gradient-neon text-primary-foreground hover:shadow-neon-blue transition-all duration-300 animate-neon-pulse",
-        "neon-outline": "border-2 border-primary bg-transparent text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:shadow-neon-blue",
-        "neon-pink": "bg-secondary text-secondary-foreground hover:shadow-neon-pink transition-all duration-300",
-        hero: "bg-gradient-neon text-primary-foreground hover:shadow-glow transition-all duration-500 text-lg px-8 py-4",
+        warm: "bg-gradient-warm text-primary-foreground hover:shadow-warm transition-all duration-300",
+        google: "bg-google text-white hover:bg-google/90 border border-google/20",
+        kakao: "bg-kakao text-black hover:bg-kakao/90 border border-kakao/20",
       },
       size: {
         default: "h-10 px-4 py-2",
