@@ -71,7 +71,7 @@ export function CharacterCard({
             <div className="flex items-center space-x-2">
               <Button
                 size="sm"
-                variant="warm"
+                variant="neon"
                 onClick={() => onStartChat?.(id)}
                 className="flex-1"
               >

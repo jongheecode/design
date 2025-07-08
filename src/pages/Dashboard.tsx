@@ -116,7 +116,7 @@ export default function Dashboard() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Button
               size="lg"
-              variant="warm"
+              variant="neon"
               className="h-20 flex-col"
               onClick={() => handleCreateCharacter('direct')}
               disabled={isCreating}

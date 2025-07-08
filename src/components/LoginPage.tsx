@@ -86,7 +86,7 @@ const LoginPage = () => {
             {/* Login Button */}
             <Button 
               onClick={handleLogin}
-              variant="warm"
+              variant="neon"
               className="w-full"
               size="lg"
             >
@@ -122,7 +122,7 @@ const LoginPage = () => {
             <div className="space-y-3">
               <Button
                 onClick={handleGoogleLogin}
-                variant="google"
+                variant="outline"
                 className="w-full"
                 size="lg"
               >
@@ -149,7 +149,7 @@ const LoginPage = () => {
               
               <Button
                 onClick={handleKakaoLogin}
-                variant="kakao"
+                variant="neon-pink"
                 className="w-full"
                 size="lg"
               >
