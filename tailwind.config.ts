@@ -128,3 +128,4 @@ export default {
     animate,   // require 대신 import 한 변수 사용
   ],
 } satisfies Config;
+
